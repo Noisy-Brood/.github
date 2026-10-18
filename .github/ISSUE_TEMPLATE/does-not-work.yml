@@ -1,0 +1,35 @@
+name: Something does not work
+description: The code in this repository does something it should not, or fails to do what it says.
+title: "Does not work: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting it.
+
+        Please do not paste mail, message headers or anything else from a mailbox, yours or anyone's. A security problem is reported privately, as SECURITY.md says, never here.
+  - type: textarea
+    id: did
+    attributes:
+      label: What you did
+      description: The command, or the steps, that show it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened instead
+      description: Any error, as it was printed. Remove anything from a mailbox first.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release, or the commit, you were using.
