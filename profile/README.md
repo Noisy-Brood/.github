@@ -41,6 +41,12 @@ The code that reads a mailbox is published in
 from the private repository whenever it changes, so the promise can be checked
 rather than taken on trust.
 
+### From the terminal
+
+`brood` is the command line over the same index of who writes to you, and like
+the app it never reads a message. It is built and published to npm, with
+provenance, from [brood-cli](https://github.com/Noisy-Brood/brood-cli).
+
 ### Read more
 
 - [How it works](https://www.noisybrood.com/how-it-works/)
