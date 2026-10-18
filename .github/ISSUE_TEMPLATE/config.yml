@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A security problem
+    url: https://github.com/Noisy-Brood/.github/blob/main/SECURITY.md
+    about: Report it privately, never in an issue. SECURITY.md says how.
+  - name: Your account, the app, or the waitlist
+    url: https://github.com/Noisy-Brood/.github/blob/main/SUPPORT.md
+    about: Write to hello@noisybrood.com. SUPPORT.md says where everything else goes.
